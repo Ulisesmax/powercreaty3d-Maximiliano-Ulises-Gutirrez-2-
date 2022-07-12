@@ -6,3 +6,80 @@ header nav {
     background-image: linear-gradient(45deg, rgb(31, 156, 154), rgb(38, 202, 189));
 
 }
+
+footer {
+    background-image: linear-gradient(45deg, rgb(112, 238, 217), rgb(255, 255, 255));
+}
+
+.buttonindex {
+    color: rgb(77, 124, 108);
+
+}
+
+.titlein {
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(8, 113, 103);
+    text-shadow: 0.1em 0.1em 0.2em;
+}
+
+.parrafoin {
+    font-size: larger;
+}
+
+.parrafoin:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.titlein1 {
+    color: rgb(65, 105, 90);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlein2 {
+    color: rgb(94, 143, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgin:hover {
+    transform: translateY(15px);
+    transition: transform 0.5s;
+}
+
+.imgin2:hover {
+    transform: translateY(-15px);
+    transition: transform 0.5s;
+}
+
+.buttonin {
+    transform: translateY(15px);
+    transition: transform 0.5s
+}
+
+.cardservicios1:hover {
+    transform: translateX(-15px);
+    transition: transform 0.5s;
+}
+
+.cardservicios2:hover {
+    transform: translateY(-15px);
+    transition: transform 0.5s;
+
+}
+
+.cardservicios3:hover {
+    transform: translateX(15px);
+    transition: transform 0.5s;
+
+}
+
+.cardservice {
+    background-color: rgb(194, 237, 235);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
