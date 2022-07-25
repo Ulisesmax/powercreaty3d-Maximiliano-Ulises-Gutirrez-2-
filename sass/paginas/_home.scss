@@ -1,0 +1,51 @@
+.titlein {
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(8, 113, 103);
+    text-shadow: 0.1em 0.1em 0.2em;
+}
+
+.parrafoin {
+    font-size: larger;
+    &:hover {
+        color: rgb(246, 250, 249);
+        transition: 0.5s;
+    } 
+}
+
+
+.titlein1 {
+    color: rgb(65, 105, 90);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlein2 {
+    color: $colorfondo;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgin {
+    max-height: 550px;
+    &:hover {
+        transform: translateY(15px);
+        transition: transform 0.5s;
+    }
+}
+
+.imgin2 {
+    &:hover {
+        transform: translateY(-15px);
+        transition: transform 0.5s;
+    }
+}
+
+.buttonin {
+    background-color: $fondoclaro;
+    border-radius: 10px;
+    padding: 10px;
+    &:hover {
+        background-color: aliceblue;
+        transition: 0.5s;
+    }
+}

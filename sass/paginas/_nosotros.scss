@@ -1,0 +1,13 @@
+.description-nosotros {
+    @include description;
+}
+
+.img-nosotros {
+    box-shadow: $sombra;
+    border-radius: 20px;
+    max-height: 500px;
+}
+
+.video-nosotros {
+    box-shadow: $sombra;
+}

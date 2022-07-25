@@ -1,0 +1,23 @@
+{
+  "name": "Powercreaty 3D",
+  "version": "1.0.0",
+  "description": "Proyecto Powercreaty3d Hace realidad tus sueños",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutirrez-2-.git"
+  },
+  "author": "Maximiliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutirrez-2-/issues"
+  },
+  "homepage": "https://github.com/Ulisesmax/powercreaty3d-Maximiliano-Ulises-Gutirrez-2-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

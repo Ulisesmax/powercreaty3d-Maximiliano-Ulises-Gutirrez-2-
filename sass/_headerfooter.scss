@@ -1,0 +1,22 @@
+main {
+    background-image: url(../imagenes/fondoweb3.jpg);
+}
+
+header nav {
+    background-image: linear-gradient(45deg, rgb(31, 156, 154), rgb(38, 202, 189));
+
+}
+
+.navbar-brand {
+    background-color: rgb(77, 195, 177);
+    border-radius: 20px;
+    padding: 10px;
+    &:hover {
+        background-color: rgb(111, 216, 197);
+    }
+}
+
+
+footer {
+    background-image: linear-gradient(45deg, rgb(112, 238, 217), rgb(255, 255, 255));
+}

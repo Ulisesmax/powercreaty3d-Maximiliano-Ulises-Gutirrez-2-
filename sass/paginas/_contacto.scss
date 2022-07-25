@@ -1,0 +1,11 @@
+.contacto_form {
+    @include formulario;
+    &:hover {
+        transform: translateY(15px);
+        transition: transform 0.5s;
+    }
+}
+
+.contacto_img {
+    box-shadow: $sombra;
+}

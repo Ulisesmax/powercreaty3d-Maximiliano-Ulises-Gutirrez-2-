@@ -1,0 +1,32 @@
+.cardservice {
+    background-color: rgb(194, 237, 235);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    @include description;
+    
+}
+
+.cardservicios1 {
+    &:hover {
+        transform: translateX(-15px);
+        transition: transform 0.5s;
+    }
+}
+
+.cardservicios2 {
+    &:hover {
+        transform: translateY(-15px);
+        transition: transform 0.5s;
+    
+    }
+
+}
+
+.cardservicios3 {
+    &:hover {
+        transform: translateX(15px);
+        transition: transform 0.5s;
+    
+    }
+}
