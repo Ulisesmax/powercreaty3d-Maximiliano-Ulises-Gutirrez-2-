@@ -92,6 +92,12 @@ footer {
 .carousel-trabajos {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
 
+.trabajoimg1 {
+  width: 70%; }
+
+.card {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
+
 .contacto_form {
   background-color: #b9fcf7;
   border-radius: 30px;
